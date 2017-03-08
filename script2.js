@@ -101,7 +101,7 @@ var drawChessBoard = function(){   //封装成一个函数，画棋盘
 var logo = new Image();   //画背景图片
 logo.src = "shuiyin.png";
 logo.onload = function(){   //加载完成后回调方法
-	context.drawImage(logo,100,100,300,200); //向画布上绘制图像、画布或视频
+	context.drawImage(logo,120,120,200,200); //向画布上绘制图像、画布或视频
 	drawChessBoard();   //使得先画背景，在画线条
 }
 
