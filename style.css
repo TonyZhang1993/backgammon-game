@@ -2,6 +2,8 @@ canvas {
 	display: block;
 	margin: 25px auto;
 	box-shadow: -2px -2px 2px #efefef, 5px 5px 5px #b9b9b9;
+	background-color: white;
+	
 }
 .head-box{
 	text-align: center;
