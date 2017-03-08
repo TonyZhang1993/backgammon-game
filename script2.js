@@ -1,3 +1,8 @@
+var browser=navigator.appName;
+if (browser=="Microsoft Internet Explorer"){
+	alert('如果无法正常显示，请使用Chrome浏览器');
+}
+
 var me = true; //表示黑子 flase表示白子
 var chessBoard = [];
 var over = false;
